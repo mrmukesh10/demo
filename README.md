@@ -90,26 +90,6 @@ nexcore/
 - **Fonts:** Google Fonts (Inter + Space Grotesk)
 
 ---
-
-## Live Deployment
-
-To host this online so others can use it:
-
-**Free — InfinityFree**
-1. Sign up at https://infinityfree.com
-2. Upload all files via their File Manager
-3. Create a MySQL database from their Control Panel
-4. Import `setup.sql` via their phpMyAdmin
-5. Update `db.php` with their database credentials
-
-**Paid — Hostinger (~Rs. 69/month)**
-1. Buy Single Web Hosting at https://hostinger.in
-2. Upload files to `public_html` via cPanel File Manager
-3. Create MySQL database via cPanel
-4. Import `setup.sql` and update `db.php`
-
----
-
 ## Note
 
 Before deploying live, open `db.php` and uncomment this line to enable secure cookies over HTTPS:
@@ -121,4 +101,4 @@ ini_set('session.cookie_secure', 1);
 
 ## Author
 
-NexCore Solutions Dev Team
+Mukesh patel
